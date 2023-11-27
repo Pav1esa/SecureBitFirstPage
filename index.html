@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Phrase Generator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>SecureBit</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showContent('Home')">Home</a>
+        <a href="#" onclick="showContent('About')">About</a>
+        <a href="#" onclick="showContent('Services')">Services</a>
+        <a href="#" onclick="showContent('Contact')">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="Home" class="content">
+            <h2>Seed Phrase Generator</h2>
+            <p>Save those words. You will enter your wallet using it.</p>
+            <button id="generateBtn">Generate Seed Phrase</button>
+            <div id="seedPhraseContainer" class="seedPhraseLines">
+                <div class="line">
+                    <p id="word1" class="word"></p>
+                    <p id="word2" class="word"></p>
+                    <p id="word3" class="word"></p>
+                </div>
+                <div class="line">
+                    <p id="word4" class="word"></p>
+                    <p id="word5" class="word"></p>
+                    <p id="word6" class="word"></p>
+                </div>
+                <div class="line">
+                    <p id="word7" class="word"></p>
+                    <p id="word8" class="word"></p>
+                    <p id="word9" class="word"></p>
+                </div>
+                <div class="line">
+                    <p id="word10" class="word"></p>
+                    <p id="word11" class="word"></p>
+                    <p id="word12" class="word"></p>
+                </div>
+            </div>
+            <button class="button" id="confirmBtn"><a href="#">Confirm</a></button>
+        </div>
+
+        <div id="About" class="content" style="display:none;">
+            <h2>About Cryptocurrency Wallets</h2>
+            <p>A cryptocurrency wallet is a digital wallet used to store, send, and receive cryptocurrencies like Bitcoin, Ethereum, and others. It consists of a pair of cryptographic keys: a public key (address) and a private key. The private key is used to access and manage the cryptocurrencies stored in the wallet.</p>
+            <p>There are different types of wallets, including hardware wallets, software wallets, and paper wallets. Each type has its own advantages and considerations for security.</p>
+        </div>
+
+    
+
+<div id="About" class="content" style="display:none;">
+    <h2>About Cryptocurrency Wallets</h2>
+    <p>A cryptocurrency wallet is a digital wallet used to store, send, and receive cryptocurrencies like Bitcoin, Ethereum, and others. It consists of a pair of cryptographic keys: a public key (address) and a private key. The private key is used to access and manage the cryptocurrencies stored in the wallet.</p>
+    <p>There are different types of wallets, including hardware wallets, software wallets, and paper wallets. Each type has its own advantages and considerations for security.</p>
+    <p>SecureBit is dedicated to providing you with the tools and knowledge to secure your cryptocurrency holdings.</p>
+</div>
+
+<div id="Services" class="content" style="display:none;">
+    <h2>Our Services</h2>
+    <p>SecureBit offers a range of services to help you navigate the world of cryptocurrencies:</p>
+    <ul>
+        <li>Secure seed phrase generation</li>
+        <li>Wallet management and consulting</li>
+        <li>Security best practices for cryptocurrency users</li>
+    </ul>
+    <p>Our team of experts is here to assist you in securing your digital assets and making informed decisions in the cryptocurrency space.</p>
+</div>
+
+
+
+
+        <div id="Contact" class="content" style="display:none;">
+    <h2>Contact Us</h2>
+    <p>Have questions or concerns? Contact us using the information below:</p>
+    <p>Email: info@securebit.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+    <p>Address: 123 Cryptostreet, Blockchain City, BC 12345</p>
+    <p>Alternatively, you can use the contact form below to reach out to us:</p>
+
+    <!-- Додати форму зворотнього зв'язку або інші контактні елементи за потребою -->
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+        <!-- Add other content sections as needed -->
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
